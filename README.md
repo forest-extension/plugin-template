@@ -16,6 +16,7 @@ First, you need to sync your repository with Forest-extension workflows.
 - Sync your repository with Forest-extension workflows. follow 1~4 steps.
 ![img](./docs/imgs/dispatch_gitaction_1.png)
 
+<br>
 
 ## 2. Create plugin template with git actions 
 
@@ -33,6 +34,7 @@ You can check the latest version at [here](https://pypi.org/project/spaceone-cor
 
 ![img](./docs/imgs/create_plugin_template_with_git_actions.png)
 
+<br>
 
 ## 3. Run plugin server
 Before running plugin server, you need to install some packages.
@@ -57,6 +59,7 @@ Let's run plugin server with this command below.
 $ spaceone run plugin-server plugin -s ./src
 ```
 
+<br>
 
 ## How to build plugin container image
 We recommend you to use our git actions to build plugin container image.
@@ -70,6 +73,8 @@ If you want to build plugin container image manually, follow this step.
 ```commandline
 $ docker build -t <image_name>:<tag> .
 ```
+
+<br>
 
 # How to test plugin
 You need to install spacectl to test plugin.
