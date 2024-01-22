@@ -40,7 +40,7 @@ You can check the latest version at [here](https://pypi.org/project/spaceone-cor
 Before running plugin server, you need to install some packages.
 - Install spaceone-core package
 ```commandline
-$ pip install spaceone-core
+$ pip install --upgrade spaceone-core
 ```
 - Install spaceone core application packages. It depends on your `resource_type`.
    - inventory.Collector -> spaceone-inventory
@@ -51,7 +51,7 @@ $ pip install spaceone-core
    - identity.ExternalAUth -> spaceone-identity
 
 ```commandline
-$ pip install --pre spaceone-inventory
+$ pip install --pre --upgrade spaceone-inventory
 ```
 Now, you are ready to run plugin server. 
 Let's run plugin server with this command below.
@@ -79,5 +79,5 @@ $ docker build -t <image_name>:<tag> .
 # How to test plugin
 You need to install spacectl to test plugin.
 ```commandline
-$ pip install spacectl
+$ pip install --upgrade spacectl
 ```
